@@ -7,9 +7,16 @@ class CalculatorTest < Test::Unit::TestCase
     assert_equal(3, total)
   end
 
-  def test_subtract
-    total = subtract(10, 5)
+  def test_substract
+    total = substract(10, 5)
     assert_equal(5, total)
   end
+
+  def test_multiply
+    total = multiply(2,4)
+    assert_equal(8,total)
+  end
+
+
 
 end
